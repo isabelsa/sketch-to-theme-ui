@@ -1,0 +1,17 @@
+{
+  "$schema": "https://raw.githubusercontent.com/BohemianCoding/SketchAPI/develop/docs/sketch-plugin-manifest-schema.json",
+  "icon": "icon.png",
+  "commands": [
+    {
+      "name": "Generate theme",
+      "identifier": "testing-scraping-components.main-identifier",
+      "script": "./main.js"
+    }
+  ],
+  "menu": {
+    "title": "Significa Token",
+    "items": [
+      "testing-scraping-components.main-identifier"
+    ]
+  }
+}
